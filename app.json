@@ -1,0 +1,30 @@
+﻿{
+  "name": "Potato",
+  "description": "Pota",
+  "keywords": [
+    "vless"
+  ],
+  "env": {
+    "PROTOCOL": {
+      "description": "vmess or vless",
+      "value": "vless",
+      "required": true
+    },
+    "UUID": {
+      "description": "ID",
+      "value": "",
+      "required": false
+    },
+    "WS_PATH": {
+      "description": "websocketlj",
+      "value": "/ray",
+      "required": true
+    }
+  },
+  "website": "https://github.com/Cabbagebaic/yearningforfreedom",
+  "repository": "https://github.com/Cabbagebaic/yearningforfreedom",
+  "stack": "container",
+  "features": [
+    "runtime-dyno-metadata"
+  ]
+}
